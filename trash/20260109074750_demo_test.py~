@@ -1,0 +1,4 @@
+#This is great
+print("Hello Nano Git BASH editor.")
+print(5*7)
+print("Great content")
