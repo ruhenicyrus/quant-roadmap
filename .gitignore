@@ -1,10 +1,53 @@
+# =========================
+# Python environment
+# =========================
 env/
+venv/
 *.pyc
 __pycache__/
-# Ignore trash folder
-trash/
 
-# Ignore backup files
+# =========================
+# Backup / temp files
+# =========================
 *.py~
 *.xlsx~
 *.ipynb_checkpoints
+*.swp
+*.bak
+*~
+
+# =========================
+# Project-specific folders to ignore
+# =========================
+# Trash folder for safe deletes
+trash/
+
+# Nano backups
+nano_backups/
+
+# =========================
+# IDE / Editor files
+# =========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+# OS-specific
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Data files (optional)
+# =========================
+# Uncomment the following if you never want to push raw/processed data
+# data/raw/
+# data/processed/
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
