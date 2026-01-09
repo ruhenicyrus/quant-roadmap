@@ -1,3 +1,10 @@
 env/
 *.pyc
 __pycache__/
+# Ignore trash folder
+trash/
+
+# Ignore backup files
+*.py~
+*.xlsx~
+*.ipynb_checkpoints
