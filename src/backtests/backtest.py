@@ -1,0 +1,3 @@
+def run_backtest(data, fast, slow):
+    ...
+    return df
